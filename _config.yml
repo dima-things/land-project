@@ -1,5 +1,5 @@
-title: Public Project Tracker
-description: Ideas and progress on plants, land, cabin
+title: Dima's Land Project 
+description: Ideas and progress on plants, land, cabin in North American zone 5. 
 theme: minima
 # Collections for sections
 collections:
@@ -7,5 +7,5 @@ collections:
     output: true
   land:
     output: true
-  cabin:
+  shelter:
     output: true
