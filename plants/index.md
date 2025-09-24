@@ -2,4 +2,8 @@
 layout: page
 title: Plants
 ---
-Section index. Add notes below or new entries in `_plants/`.
+
+{% assign items = site.plants | sort: 'date' | reverse %}
+{% for item in items %}
+- [{{ item.title }}]({{ item.url | relative_url }}) — {{ item.date | date: "%Y-%m-%d" }}
+{% endfor %}
