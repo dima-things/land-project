@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 Welcome. Choose a section:
-- [Plants](/plants/)
-- [Land](/land/)
-- [Shelter](/shelter/)
-- [All updates](/blog/)
+- [Plants](plants/)
+- [Land](land/)
+- [Cabin](cabin/)
+- [All updates](blog/)
