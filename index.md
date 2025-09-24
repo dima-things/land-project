@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: Home
 ---
 
@@ -9,6 +9,7 @@ title: Home
 - [Shelter]({{ 'shelter/' | relative_url }})
 
 ## Latest updates
-{% for post in site.posts limit:10 %}
-- [{{ post.title }}]({{ post.url | relative_url }}) — {{ post.date | date: "%Y-%m-%d" }}
+{% assign items = site.plants | concat: site.land | concat: site.shelter | sort: 'date' | reverse %}
+{% for item in items limit:10 %}
+- [{{ item.title }}]({{ item.url | relative_url }}) — {{ item.date | date: "%Y-%m-%d" }}
 {% endfor %}
