@@ -1,8 +1,8 @@
-title: Dima’s Land Project
+title: Land Project
 theme: minima
 url: "https://dima-things.github.io"
 baseurl: "/land-project"
 collections:
-  plants: { output: true }
-  land:   { output: true }
-  cabin:  { output: true }
+  plants:  { output: true }
+  land:    { output: true }
+  shelter: { output: true }
