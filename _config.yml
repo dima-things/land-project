@@ -1,11 +1,8 @@
-title: Dima's Land Project 
-description: Ideas and progress on plants, land, cabin in North American zone 5. 
+title: Dima’s Land Project
 theme: minima
-# Collections for sections
+url: "https://dima-things.github.io"
+baseurl: "/land-project"
 collections:
-  plants:
-    output: true
-  land:
-    output: true
-  shelter:
-    output: true
+  plants: { output: true }
+  land:   { output: true }
+  cabin:  { output: true }
