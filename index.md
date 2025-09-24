@@ -5,5 +5,5 @@ title: Home
 Welcome. Choose a section:
 - [Plants](/plants/)
 - [Land](/land/)
-- [Cabin](/cabin/)
+- [Shelter](/shelter/)
 - [All updates](/blog/)
