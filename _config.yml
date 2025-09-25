@@ -2,6 +2,10 @@ title: Land Project
 theme: minima
 url: "https://dima-things.github.io"
 baseurl: "/land-project"
+
+header_pages:
+  - about.md
+
 collections:
   plants:  { output: true }
   land:    { output: true }
