@@ -3,7 +3,13 @@ layout: page
 title: Plants
 ---
 
-{% assign items = site.plants | sort: 'date' | reverse %}
-{% for item in items %}
-- [{{ item.title }}]({{ item.url | relative_url }}) — {{ item.date | date: "%Y-%m-%d" }}
+# Plants
+
+Intro text here.
+
+{% assign items = site.plants | sort: "date" | reverse %}
+<ul>
+{% for p in items %}
+  <li><a href="{{ p.url }}">{{ p.title }}</a></li>
 {% endfor %}
+</ul>
