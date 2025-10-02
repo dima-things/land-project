@@ -5,6 +5,9 @@ baseurl: "/land-project"
 
 header_pages:
   - about.md
+  - plants/index.md
+  - shelter/index.md
+  - land/index.md
 
 collections:
   plants:
