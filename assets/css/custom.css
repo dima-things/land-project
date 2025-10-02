@@ -43,26 +43,37 @@ body {
 }
 
 .post-content {
-  line-height: 1.6;
+  line-height: 1.8;  /* Increased from 1.6 */
 }
 
 .post-content h2 {
   color: #2c3e50;
+  margin-top: 2.5rem;    /* Increased from 2rem */
+  margin-bottom: 1.5rem; /* Increased from 1rem */
+}
+
+.post-content h3 {
   margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
 }
 
 .post-content p {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;  /* Increased from 1rem */
+  max-width: 70ch;  /* Optimal line length for readability */
 }
 
 .post-content ul {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;  /* Increased from 1rem */
+  padding-left: 2rem;
+}
+
+.post-content ol {
+  margin-bottom: 1.5rem;  /* Increased from 1rem */
   padding-left: 2rem;
 }
 
 .post-content li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;  /* Increased from 0.5rem */
 }
 
 /* Typography */
@@ -116,4 +127,12 @@ img {
   border-radius: 3px;
   margin-right: 0.5em;
   font-size: 0.8rem;
+}
+
+/* Add spacing for blockquotes */
+.post-content blockquote {
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+  border-left: 4px solid #ddd;
+  color: #666;
 }
