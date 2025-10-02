@@ -3,8 +3,6 @@ layout: page
 title: Plants
 ---
 
-# Plants
-
 Plant ideas, sorted alphabetically.
 
 {% assign items = site.plants | sort: "title" | reverse %}
