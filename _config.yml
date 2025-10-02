@@ -7,9 +7,12 @@ header_pages:
   - about.md
 
 collections:
-  plants:  { output: true }
-      permalink: /plants/:name/
-  land:    { output: true }
-      permalink: /land/:name/
-  shelter: { output: true }
+  plants:
+    output: true
+    permalink: /plants/:name/
+  land:
+    output: true
+    permalink: /land/:name/
+  shelter:
+    output: true
     permalink: /shelter/:name/
