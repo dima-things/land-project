@@ -60,20 +60,28 @@ body {
 .post-content p {
   margin-bottom: 1.5rem;  /* Increased from 1rem */
   max-width: 70ch;  /* Optimal line length for readability */
+  white-space: pre-line; /* Preserves line breaks */
 }
 
 .post-content ul {
-  margin-bottom: 1.5rem;  /* Increased from 1rem */
+  margin: 1.5rem 0;
   padding-left: 2rem;
+  list-style-position: outside;
 }
 
 .post-content ol {
-  margin-bottom: 1.5rem;  /* Increased from 1rem */
+  margin: 1.5rem 0;
   padding-left: 2rem;
+  list-style-position: outside;
 }
 
 .post-content li {
   margin-bottom: 0.8rem;  /* Increased from 0.5rem */
+  padding-left: 0.5rem;
+}
+
+.post-content li p {
+  margin-bottom: 0.5rem;
 }
 
 /* Typography */

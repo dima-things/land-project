@@ -9,9 +9,9 @@
   </head>
   <body>
     {%- include header.html -%}
-    <main class="page-content">
+    <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        {{ content }}
+        {{ content | markdownify }}
       </div>
     </main>
     {%- include footer.html -%}
