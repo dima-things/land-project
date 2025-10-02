@@ -20,6 +20,50 @@ body {
   margin: 1em 0;
 }
 
+/* Post styles */
+.post {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.post-header {
+  margin-bottom: 2rem;
+}
+
+.post-title {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.post-meta {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.post-content {
+  line-height: 1.6;
+}
+
+.post-content h2 {
+  color: #2c3e50;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.post-content p {
+  margin-bottom: 1rem;
+}
+
+.post-content ul {
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+.post-content li {
+  margin-bottom: 0.5rem;
+}
+
 /* Typography */
 h1, h2, h3 {
   color: #2c3e50;
@@ -69,4 +113,5 @@ img {
   padding: 0.2em 0.6em;
   border-radius: 3px;
   margin-right: 0.5em;
+  font-size: 0.8rem;
 }
