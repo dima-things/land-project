@@ -5,9 +5,7 @@ title: Plants
 
 Plant ideas, sorted alphabetically.
 
-{% assign items = site.plants | sort: "title" | reverse %}
-<ul>
-{% for p in items %}
-<li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+{% assign items = site.plants | sort: "title" %}
+{% for item in items %}
+- [{{ item.title }}]({{ item.url | relative_url }})
 {% endfor %}
-</ul>
