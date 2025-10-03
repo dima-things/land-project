@@ -1,13 +1,13 @@
 ---
 layout: post
-title: First posts
+title: Four Posts
 date: 2025-09-24
 tags: [shelter]
 ---
 
 ## Structure
 
-Nothing complicated here.\
+Nothing complicated here.
 **Four sturdy posts** define a rectangular living space.
 
 Basic dimensions:
@@ -17,7 +17,7 @@ Basic dimensions:
 * **Back posts:** 6 feet tall
 * **Slope:** 2:8 (25%)
 
-Rope and tarp provide removable weather protection for the first few months.\
+Rope and tarp provide removable weather protection for the first few months.
 Branches, earth, and stone (if present) can form low walls to keep out vermin and insects.
 
 Protection features:

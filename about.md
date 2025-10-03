@@ -16,7 +16,7 @@ But one day, I shall.
 Here I collect ideas and information.
 There are three areas: plants, shelter, land.
 
-Plants will list native and exotics plants adapted for [USDA zone 5b]([https://example.com](https://en.wikipedia.org/wiki/Hardiness_zone#:~:text=States%20at%201a.-,Definitions,-%5Bedit%5D)).
+Plants will list native and exotics plants adapted for [USDA zone 5b](https://en.wikipedia.org/wiki/Hardiness_zone#:~:text=States%20at%201a.-,Definitions,-%5Bedit%5D).
 
 Shelter will be all things built for the living space.
 
