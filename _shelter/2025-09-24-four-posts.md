@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First posts
+title: First Posts
 date: 2025-09-24
 tags: [shelter]
 ---
