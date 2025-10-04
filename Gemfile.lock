@@ -65,6 +65,7 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    webrick (1.9.1)
 
 PLATFORMS
   x86_64-linux-gnu
@@ -77,6 +78,7 @@ DEPENDENCIES
   jekyll-seo-tag (~> 2.7.0)
   kramdown-parser-gfm (~> 1.1.0)
   safe_yaml (~> 1.0.5)
+  webrick (~> 1.7)
 
 BUNDLED WITH
    2.4.20
