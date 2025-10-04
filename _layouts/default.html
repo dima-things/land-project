@@ -2,18 +2,42 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    {%- seo -%}
-    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% if page.title %}
+      <title>{{ page.title | escape }} - {{ site.title }}</title>
+    {% else %}
+      <title>{{ site.title }}</title>
+    {% endif %}
+
+    <link rel="stylesheet" href="{{ '/assets/css/tale-custom.css' | relative_url }}">
+    {% feed_meta %}
+    {% seo %}
   </head>
+
   <body>
-    {%- include header.html -%}
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content | markdownify }}
+    <nav class="nav">
+      <div class="nav-container">
+        <a href="{{ site.baseurl }}/">
+          <h2 class="nav-title">{{ site.title }}</h2>
+        </a>
+        <ul>
+          {% for page in site.header_pages %}
+            {% assign my_page = site.pages | where: "path", page | first %}
+            {% if my_page.title %}
+              <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
       </div>
+    </nav>
+
+    <main>
+      {{ content }}
     </main>
-    {%- include footer.html -%}
+
+    <footer>
+      <span>{{ site.title }} - {{ site.time | date: '%Y' }}</span>
+    </footer>
   </body>
 </html>

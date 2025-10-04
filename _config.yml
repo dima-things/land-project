@@ -3,6 +3,12 @@ remote_theme: chesterhow/tale
 url: "https://dima-things.github.io"
 baseurl: "/land-project"
 
+plugins:
+  - jekyll-paginate
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
 permalink: /:year-:month-:day/:title/
 paginate: 5
 
