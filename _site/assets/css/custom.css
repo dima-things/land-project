@@ -1,0 +1,146 @@
+/* Base styles */
+body {
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Content area */
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+.page-content {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  padding: 0.5em;
+  margin: 0.5em 0; /* Reduced from 1em */
+}
+
+/* Post styles */
+.post {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 1rem 2rem; /* Reduced top padding */
+}
+
+.post-header {
+  margin-bottom: 0.5em;  /* Reduced from 2rem */
+}
+
+.post-title {
+  margin-top: 0;  /* Remove top margin */
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.post-meta {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.post-content {
+  line-height: 1.8;  /* Increased from 1.6 */
+}
+
+.post-content h2 {
+  color: #2c3e50;
+  margin-top: 2.5rem;    /* Increased from 2rem */
+  margin-bottom: 1.5rem; /* Increased from 1rem */
+}
+
+.post-content h3 {
+  margin-top: 2rem;
+  margin-bottom: 1.2rem;
+}
+
+.post-content p {
+  margin-bottom: 1.5rem;  /* Increased from 1rem */
+  max-width: 70ch;  /* Optimal line length for readability */
+  white-space: pre-line; /* Preserves line breaks */
+}
+
+.post-content ul {
+  margin: 1.5rem 0;
+  padding-left: 2rem;
+  list-style-position: outside;
+}
+
+.post-content ol {
+  margin: 1.5rem 0;
+  padding-left: 2rem;
+  list-style-position: outside;
+}
+
+.post-content li {
+  margin-bottom: 0.8rem;  /* Increased from 0.5rem */
+  padding-left: 0.5rem;
+}
+
+.post-content li p {
+  margin-bottom: 0.5rem;
+}
+
+/* Typography */
+h1, h2, h3 {
+  color: #2c3e50;
+  margin-top: 0.5em; /* Reduced from 1.5em */
+  margin-bottom: 0.8em;
+}
+
+/* Lists and content */
+ul {
+  margin-bottom: 1.5em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  border-radius: 4px;
+  margin: 1.5em 0;
+}
+
+/* Header and navigation */
+.site-header {
+  background: white;
+  padding: 0.2em 0;
+  margin-bottom: 0.5em; /* Reduced from 1em */
+  border-bottom: none; /* Removed the horizontal line */
+}
+
+.site-title {
+  font-weight: 500;
+}
+
+.site-nav .page-link {
+  color: #2c3e50;
+}
+
+/* Tags */
+.post-tags {
+  margin: 2em 0;
+  font-size: 0.9em;
+}
+
+.tag {
+  background: #eef;
+  padding: 0.2em 0.6em;
+  border-radius: 3px;
+  margin-right: 0.5em;
+  font-size: 0.8rem;
+}
+
+/* Add spacing for blockquotes */
+.post-content blockquote {
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+  border-left: 4px solid #ddd;
+  color: #666;
+}
