@@ -1,7 +1,10 @@
 title: Land Project
-theme: minima
+remote_theme: chesterhow/tale
 url: "https://dima-things.github.io"
 baseurl: "/land-project"
+
+permalink: /:year-:month-:day/:title/
+paginate: 5
 
 header_pages:
   - about.md
