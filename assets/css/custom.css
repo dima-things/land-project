@@ -137,15 +137,71 @@ img:hover {
   transform: scale(1.01);
 }
 
-/* Header and navigation */
+/* Header and navigation enhancement */
 .site-header {
   background: rgba(255, 255, 255, 0.98);
-  padding: 1em 0;
+  padding: 1em 2em;
   position: sticky;
   top: 0;
   z-index: 100;
   backdrop-filter: blur(8px);
   border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.site-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: #4a5568;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem 0;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #2b6cb0;
+  border-bottom-color: #2b6cb0;
+}
+
+.nav-links .active {
+  color: #2b6cb0;
+  border-bottom-color: #2b6cb0;
+}
+
+@media (max-width: 640px) {
+  .site-nav {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+  
+  .nav-links {
+    gap: 1.5rem;
+  }
 }
 
 /* Tags enhancement */
